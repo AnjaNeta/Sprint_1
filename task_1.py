@@ -24,7 +24,7 @@ for part in time_parts:
         elif 's' in elem:
             # Секунды переводим в минуты
             seconds = int(elem.replace('s', ''))
-            minutes_in_part += seconds / 60
+            minutes_in_part += seconds // 60
     
     total_minutes += minutes_in_part
 

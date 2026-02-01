@@ -1,8 +1,8 @@
 class Tester:
 
-    def __init__(self, name):
+    def __init__(self, name, deadline = True):
         self.name = name
-        self.deadline = True
+        self.deadline = deadline
 
     def work_hard(self, deadline=None):
         if deadline is not None:
